@@ -47,7 +47,7 @@ function Footer() {
                                 <a href="https://www.linkedin.com/jobs/jobs-in-kenya?position=1&pageNum=0">Careers</a>
                             </li>
                             <li>
-                                <a href="0759515450">Mobile</a>
+                                <a href="#contact">Mobile</a>
                             </li>
                             <li>
                                 <a href="#about">Blog</a>
