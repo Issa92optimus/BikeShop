@@ -411,7 +411,7 @@ body {
     z-index: 4;
     color: white;
     border-radius: 5px;
-    background-image: url("/src/images/book-car/book-bg.png");
+    background-image: url("/src/images/book-bike/book-bg.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -496,21 +496,21 @@ body {
     border: 1px solid #ccd7e6;
 }
 
-.book-content__box .box-form__car-time label {
+.book-content__box .box-form__bike-time label {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
 }
 
-.book-content__box .box-form__car-time label i {
+.book-content__box .box-form__bike-time label i {
     color: #ff4d30;
 }
 
-.book-content__box .box-form__car-time ::-webkit-datetime-edit {
+.book-content__box .box-form__bike-time ::-webkit-datetime-edit {
     padding: 1.3rem 1.3rem;
 }
 
-.book-content__box .box-form__car-time ::-webkit-calendar-picker-indicator {
+.book-content__box .box-form__bike-time ::-webkit-calendar-picker-indicator {
     cursor: pointer;
     font-size: 1.6rem;
 }
@@ -673,7 +673,7 @@ body {
     line-height: 1.6;
 }
 
-.booking-modal__car-info {
+.booking-modal__bike-info {
     background-color: white;
     padding: 3rem 3rem;
     display: grid;
@@ -682,80 +682,80 @@ body {
 }
 
 @media (max-width: 650px) {
-    .booking-modal__car-info {
+    .booking-modal__bike-info {
         grid-template-columns: 1fr;
         text-align: center;
     }
 }
 
-.booking-modal__car-info__dates {
+.booking-modal__bike-info__dates {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.booking-modal__car-info__dates h5 {
+.booking-modal__bike-info__dates h5 {
     font-size: 1.8rem;
     color: #ff4d30;
 }
 
-.booking-modal__car-info__dates span {
+.booking-modal__bike-info__dates span {
     display: flex;
     gap: 1rem;
 }
 
 @media (max-width: 650px) {
-    .booking-modal__car-info__dates span {
+    .booking-modal__bike-info__dates span {
         grid-template-columns: 1fr;
         text-align: center;
         justify-content: center;
     }
 }
 
-.booking-modal__car-info__dates span i {
+.booking-modal__bike-info__dates span i {
     font-size: 1.8rem;
     padding-top: 0.2rem;
     color: #777777;
 }
 
 @media (max-width: 650px) {
-    .booking-modal__car-info__dates span i {
+    .booking-modal__bike-info__dates span i {
         display: none;
     }
 }
 
-.booking-modal__car-info__dates span h6 {
+.booking-modal__bike-info__dates span h6 {
     font-size: 1.5rem;
     margin-bottom: 0.2rem;
 }
 
-.booking-modal__car-info__dates span p {
+.booking-modal__bike-info__dates span p {
     font-size: 1.6rem;
     color: #777777;
 }
 
-.booking-modal__car-info__model {
+.booking-modal__bike-info__model {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
 @media (max-width: 650px) {
-    .booking-modal__car-info__model {
+    .booking-modal__bike-info__model {
         margin-top: 3.5rem;
     }
 }
 
-.booking-modal__car-info__model h5 {
+.booking-modal__bike-info__model h5 {
     font-size: 1.8rem;
     color: #ff4d30;
 }
 
-.booking-modal__car-info__model h5 span {
+.booking-modal__bike-info__model h5 span {
     color: #010103;
 }
 
-.booking-modal__car-info__model img {
+.booking-modal__bike-info__model img {
     width: 100%;
     height: auto;
 }
@@ -999,14 +999,14 @@ body {
     margin: 0.5rem 0 1rem 0;
 }
 
-.pick-container__car-content {
+.pick-container__bike-content {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
 
 @media (max-width: 1050px) {
-    .pick-container__car-content {
+    .pick-container__bike-content {
         flex-direction: column;
         gap: 5rem;
     }
@@ -1035,18 +1035,18 @@ body {
     color: white;
 }
 
-.pick-car {
+.pick-bike {
     width: 50rem;
     position: relative;
 }
 
 @media (max-width: 700px) {
-    .pick-car {
+    .pick-bike {
         width: 100%;
     }
 }
 
-.pick-car img {
+.pick-bike img {
     width: 100%;
     margin-top: 6rem;
 }
@@ -1115,20 +1115,20 @@ body {
     background-color: #e9381d;
 }
 
-.box-cars {
+.box-bike {
     gap: 11rem;
     display: flex;
     justify-content: space-between;
 }
 
 @media (max-width: 1200px) {
-    .box-cars {
+    .box-bike {
         gap: 2rem;
     }
 }
 
 @media (max-width: 700px) {
-    .box-cars {
+    .box-bike {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1477,7 +1477,7 @@ body {
 }
 
 .faq-section {
-    background-image: url("/src/images/faq/car.png");
+    background-image: url("/src/images/faq/bike.png");
     padding: 10rem 0;
     background-size: auto;
     background-repeat: no-repeat;
@@ -2371,5 +2371,3 @@ footer {
     box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
     background-color: #fa4226;
 }
-
-/*# sourceMappingURL=styles.css.map */
