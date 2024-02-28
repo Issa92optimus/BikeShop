@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import PickBike from "../components/PickBike";
 import Faq from "../components/Faq";
 import Download from "../components/Download";
+import ChooseUs from "../components/ChooseUs";
 
 function Home() {
     return(
@@ -20,6 +21,7 @@ function Home() {
             <PickBike />
             <Faq />
             <Download />
+            <ChooseUs />
         </>
     );
 }
