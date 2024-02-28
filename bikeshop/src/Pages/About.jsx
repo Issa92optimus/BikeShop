@@ -1,5 +1,7 @@
 import { IconPhone } from "@tabler/icons-react";
 import PlanTrip from "../components/PlanTrip";
+import Footer from "../components/Footer";
+import HeroPages from "../components/HeroPages";
 import AboutMain from "../images/about/about-main.jpg";
 import Box1 from "../images/about/icon1.png";
 import Box2 from "../images/about/icon2.png";
