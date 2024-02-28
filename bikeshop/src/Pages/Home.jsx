@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import BookBike from "../components/BookBike";
 import Hero from "../components/Hero";
 import PickBike from "../components/PickBike";
+import Faq from "../components/Faq"
 
 function Home() {
     return(
@@ -16,6 +17,7 @@ function Home() {
             <Banner />
             <BookBike />
             <PickBike />
+            <Faq />
         </>
     );
 }
