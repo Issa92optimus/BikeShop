@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
-import HeroBike from "../images/hero/main-car.png";
+import HeroBike from "../images/hero/main-bike.png";
 import { useEffect, useState } from "react";
 import { IconChevronDown, IconCircleCheck } from "@tabler/icons-react";
 
