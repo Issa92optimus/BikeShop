@@ -1,14 +1,14 @@
 import { IconPhone } from "@tabler/icons-react";
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-// import Testimonials from "../components/Testimonials";
+import Testimonials from "../components/Testimonials";
 
 function TestimonialsPage() {
     return (
         <>
             <section className="testimonials-page">
                 <HeroPages name="Testimonials" />
-                {/* <Testimonials /> */}
+                <Testimonials />
                 <div className="book-banner">
                     <div className="book-banner__overlay"></div>
                     <div className="container">
