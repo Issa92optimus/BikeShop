@@ -9,52 +9,49 @@ import Person5 from "../images/team/5.png";
 import Person6 from "../images/team/6.png";
 
 function Team() {
-    const teamPpl = [
-        { img: Person1, name: "Ramadhan Masha", job: "Salesman" },
-        { img: Person2, name: "Adam Zero", job: "Business owner" },
-        { img: Person3, name: "Masha Ramah", job: "Photographer" },
-        { img: Person4, name: "Yenna Ortega", job: "Car Detailist" },
-        { img: Person5, name: "Christiano Yonaldo", job: "Mechanic" },
-        { img: Person6, name: "Issa Changawa", job: "Manager" },
-
-    ];
-    return (
-        <>
-            <section className="team-page">
-                <HeroPages name="Our Team" />
-                <div className="container">
-                    <div className="team-container">
-                        {teamPpl.map((ppl, id) => (
-                            <div key={id} className="team-container_box">
-                            <div className="team-container_box_img-div">
-                                <img src={ppl.img} alt="team_img" />
-                            </div>
-                            <div className="team-container_box_descr">
-                                    <h3>{ppl.name}</h3>
-                                    <p>{ppl.job}</p>
-                            </div>
-                        </div>
-                        ))}
-                    </div>
+  const teamPpl = [
+    { img: Person1, name: "Ramadhan Masha", job: "Salesman" },
+    { img: Person2, name: "Adam Zero", job: "Business Owner" },
+    { img: Person3, name: "Masha Ramah", job: "Photographer" },
+    { img: Person4, name: "Yenna Ortega", job: "Car Detailist" },
+    { img: Person5, name: "Christiano Rizz", job: "Mechanic" },
+    { img: Person6, name: "Issa Changawa", job: "Manager" },
+  ];
+  return (
+    <>
+      <section className="team-page">
+        <HeroPages name="Our Team" />
+        <div className="cotnainer">
+          <div className="team-container">
+            {teamPpl.map((ppl, id) => (
+              <div key={id} className="team-container__box">
+                <div className="team-container__box__img-div">
+                  <img src={ppl.img} alt="team_img" />
                 </div>
-
-                <div className="book-banner">
-                    <div className="book-banner_overlay"></div>
-                    <div className="container">
-                        <div className="text-content">
-                            <h2>Rent a bike by getting in touch with us</h2>
-                            <span>
-                                <IconPhone width={40} height={40} />
-                                <h3>(254) 759-5154-50</h3>
-                            </span>
-                        </div>
-                    </div>
+                <div className="team-container__box__descr">
+                  <h3>{ppl.name}</h3>
+                  <p>{ppl.job}</p>
                 </div>
-                <Footer />
-            </section>
-        </>
-    );
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="book-banner">
+          <div className="book-banner__overlay"></div>
+          <div className="container">
+            <div className="text-content">
+              <h2>Rent a bike by getting in touch with us</h2>
+              <span>
+                <IconPhone width={40} height={40} />
+                <h3>(254) 759-5154-50</h3>
+              </span>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </section>
+    </>
+  );
 }
 
 export default Team;
-

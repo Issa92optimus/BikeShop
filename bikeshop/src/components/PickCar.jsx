@@ -1,9 +1,9 @@
 import { useState } from "react";
-import BikeBox from "./BikeBox";
-import { BIKE_DATA } from "./BikeData";
+import CarBox from "./CarBox";
+import { CAR_DATA } from "./CarData";
 
-function PickBike() {
-  const [active, setActive] = useState("SecondBike");
+function PickCar() {
+  const [active, setActive] = useState("SecondCar");
   const [colorBtn, setColorBtn] = useState("btn1");
 
   const btnID = (id) => {
@@ -27,13 +27,13 @@ function PickBike() {
                 next adventure or business trip
               </p>
             </div>
-            <div className="pick-container__bike-content">
-              {/* pick bike */}
+            <div className="pick-container__car-content">
+              {/* pick car */}
               <div className="pick-box">
                 <button
                   className={`${coloringButton("btn1")}`}
                   onClick={() => {
-                    setActive("SecondBike");
+                    setActive("SecondCar");
                     btnID("btn1");
                   }}
                 >
@@ -43,7 +43,7 @@ function PickBike() {
                   className={`${coloringButton("btn2")}`}
                   id="btn2"
                   onClick={() => {
-                    setActive("FirstBike");
+                    setActive("FirstCar");
                     btnID("btn2");
                   }}
                 >
@@ -53,7 +53,7 @@ function PickBike() {
                   className={`${coloringButton("btn3")}`}
                   id="btn3"
                   onClick={() => {
-                    setActive("ThirdBike");
+                    setActive("ThirdCar");
                     btnID("btn3");
                   }}
                 >
@@ -63,7 +63,7 @@ function PickBike() {
                   className={`${coloringButton("btn4")}`}
                   id="btn4"
                   onClick={() => {
-                    setActive("FourthBike");
+                    setActive("FourthCar");
                     btnID("btn4");
                   }}
                 >
@@ -73,7 +73,7 @@ function PickBike() {
                   className={`${coloringButton("btn5")}`}
                   id="btn5"
                   onClick={() => {
-                    setActive("FifthBike");
+                    setActive("FifthCar");
                     btnID("btn5");
                   }}
                 >
@@ -83,7 +83,7 @@ function PickBike() {
                   className={`${coloringButton("btn6")}`}
                   id="btn6"
                   onClick={() => {
-                    setActive("SixthBike");
+                    setActive("SixthCar");
                     btnID("btn6");
                   }}
                 >
@@ -91,12 +91,12 @@ function PickBike() {
                 </button>
               </div>
 
-              {active === "FirstBike" && <BikeBox data={BIKE_DATA} bikeID={0} />}
-              {active === "SecondBike" && <BikeBox data={BIKE_DATA} bikeID={1} />}
-              {active === "ThirdBike" && <BikeBox data={BIKE_DATA} bikeID={2} />}
-              {active === "FourthBike" && <BikeBox data={BIKE_DATA} bikeID={3} />}
-              {active === "FifthBike" && <BikeBox data={BIKE_DATA} bikeID={4} />}
-              {active === "SixthBike" && <BikeBox data={BIKE_DATA} bikeID={5} />}
+              {active === "FirstCar" && <CarBox data={CAR_DATA} carID={0} />}
+              {active === "SecondCar" && <CarBox data={CAR_DATA} carID={1} />}
+              {active === "ThirdCar" && <CarBox data={CAR_DATA} carID={2} />}
+              {active === "FourthCar" && <CarBox data={CAR_DATA} carID={3} />}
+              {active === "FifthCar" && <CarBox data={CAR_DATA} carID={4} />}
+              {active === "SixthCar" && <CarBox data={CAR_DATA} carID={5} />}
             </div>
           </div>
         </div>
@@ -105,4 +105,4 @@ function PickBike() {
   );
 }
 
-export default PickBike;
+export default PickCar;

@@ -1,28 +1,25 @@
 import "../src/dist/styles.css";
-import Home from './Pages/Home';
-import About from './Pages/About';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from './Pages/Contact';
-import Models from './Pages/Models';
-import Team from './Pages/Team';
-import TestimonialsPage from './Pages/TestimonialsPage';
-import Navbar from './components/Navbar';
+import About from "./Pages/About";
+import Home from "./Pages/Home";
+import Navbar from "../src/components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Models from "./Pages/Models";
+import TestimonialsPage from "./Pages/TestimonialsPage";
+import Team from "./Pages/Team";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="models" element={<Models />} />
-          <Route path="team" element={<Team />} />
-          <Route path="testimonials" element={<TestimonialsPage />} />
-          
-        </Routes>
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="models" element={<Models />} />
+        <Route path="testimonials" element={<TestimonialsPage />} />
+        <Route path="team" element={<Team />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }

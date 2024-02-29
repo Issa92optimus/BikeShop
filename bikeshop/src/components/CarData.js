@@ -1,11 +1,11 @@
-import Cannondale from "../images/bike-big/cannondale.jpg";
-import Bianchi from "../images/bike-big/bianchi.jpg";
-import Ribble from "../images/bike-big/ribble.jpg";
-import BMC from "../images/bike-big/bmc.jpg";
-import Specialized from "../images/bike-big/specialized.jpg";
-import Vitus from "../images/bike-big/vitus.jpg";
+import Cannondale from "../images/cars-big/cannondale.jpg";
+import Bianchi from "../images/cars-big/bianchi.jpg";
+import Ribble from "../images/cars-big/ribble.jpg";
+import BMC from "../images/cars-big/bmc.jpg";
+import Specialized from "../images/cars-big/specialized.jpg";
+import Vitus from "../images/cars-big/vitus.jpg";
 
-export const BIKE_DATA = [
+export const CAR_DATA = [
   [
     {
       name: "Cannondale Synapse",

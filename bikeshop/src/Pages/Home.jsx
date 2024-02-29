@@ -1,29 +1,29 @@
-import PlanTrip from "../components/PlanTrip";
-import Footer from "../components/Footer";
-import Testimonials from "../components/Testimonials";
-import Banner from "../components/Banner";
-import BookBike from "../components/BookBike";
 import Hero from "../components/Hero";
-import PickBike from "../components/PickBike";
+import BookCar from "../components/BookCar";
+import PlanTrip from "../components/PlanTrip";
+import PickCar from "../components/PickCar";
+import Banner from "../components/Banner";
+import ChooseUs from "../components/ChooseUs";
+import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 import Download from "../components/Download";
-import ChooseUs from "../components/ChooseUs";
+import Footer from "../components/Footer";
 
 function Home() {
-    return(
-        <>
-            <PlanTrip />
-            <Footer />
-            <Hero />
-            <Testimonials />
-            <Banner />
-            <BookBike />
-            <PickBike />
-            <Faq />
-            <Download />
-            <ChooseUs />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <BookCar />
+      <PlanTrip />
+      <PickCar />
+      <Banner />
+      <ChooseUs />
+      <Testimonials />
+      <Faq />
+      <Download />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

@@ -35,7 +35,7 @@
     }
   }
 
-  &__bike-content {
+  &__car-content {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -70,7 +70,7 @@
   }
 }
 
-.pick-bike {
+.pick-car {
   width: 50rem;
   position: relative;
 
@@ -149,7 +149,7 @@
   }
 }
 
-.box-bike {
+.box-cars {
   gap: 11rem;
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
-import HeroBike from "../images/hero/main-bike.png";
+import HeroCar from "../images/hero/main-car.png";
 import { useEffect, useState } from "react";
 import { IconChevronDown, IconCircleCheck } from "@tabler/icons-react";
 
@@ -62,9 +62,9 @@ function Hero() {
 
             {/* img */}
             <img
-              src={HeroBike}
-              alt="bike-img"
-              className="hero-content__bike-img"  
+              src={HeroCar}
+              alt="car-img"
+              className="hero-content__car-img"  
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ function ChooseUs() {
             <img
               className="choose-container__img"
               src={MainImg}
-              alt="bike_img"
+              alt="car_img"
             />
             <div className="text-container">
               <div className="text-container__left">
@@ -34,7 +34,7 @@ function ChooseUs() {
               </div>
               <div className="text-container__right">
                 <div className="text-container__right__box">
-                  <img src={Box1} alt="bike-img" />
+                  <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
                     <h4>Cross Country Rides</h4>
                     <p>
