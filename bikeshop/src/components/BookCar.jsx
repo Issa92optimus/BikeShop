@@ -5,7 +5,7 @@ import CarRibble from "../images/cars-big/ribble.jpg";
 import CarBMC from "../images/cars-big/bmc.jpg";
 import CarSpecialized from "../images/cars-big/specialized.jpg";
 import CarVitus from "../images/cars-big/vitus.jpg";
-import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
+import { IconBike, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
 
@@ -179,7 +179,7 @@ function BookCar() {
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <IconCar className="input-icon" /> &nbsp; Select Your Bike
+                    <IconBike className="input-icon" /> &nbsp; Select Your Bike
                     Type <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>

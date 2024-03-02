@@ -7,7 +7,7 @@ import CarImg4 from "../images/cars-big/bmw-box.png";
 import CarImg5 from "../images/cars-big/benz-box.png";
 import CarImg6 from "../images/cars-big/passat-box.png";
 import { Link } from "react-router-dom";
-import { IconCar, IconPhone, IconStar } from "@tabler/icons-react";
+import { IconBike, IconPhone, IconStar } from "@tabler/icons-react";
 
 function Models() {
   return (
@@ -38,16 +38,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Zelos
+                      <IconBike /> &nbsp; Zelos
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp; <IconCar />
+                      4/5 &nbsp; <IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Triathlon
+                      <IconBike /> &nbsp; Triathlon
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      RB &nbsp; <IconCar />
+                      RB &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -81,16 +81,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Aeroad
+                      <IconBike /> &nbsp; Aeroad
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp; <IconCar />
+                      4/5 &nbsp; <IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Triathlon
+                      <IconBike /> &nbsp; Triathlon
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Road & Gravel &nbsp; <IconCar />
+                      Road & Gravel &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -124,16 +124,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; CLX
+                      <IconBike /> &nbsp; CLX
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp; <IconCar />
+                      4/5 &nbsp; <IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Triathlon
+                      <IconBike /> &nbsp; Triathlon
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      RB &nbsp; <IconCar />
+                      RB &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -167,16 +167,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Timemachine
+                      <IconBike /> &nbsp; Timemachine
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp; <IconCar />
+                      4/5 &nbsp; <IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Road, Triathlon
+                      <IconBike /> &nbsp; Road, Triathlon
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Aero &nbsp; <IconCar />
+                      Aero &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -210,16 +210,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Caledonia
+                      <IconBike /> &nbsp; Caledonia
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp;<IconCar />
+                      4/5 &nbsp;<IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Triathlon
+                      <IconBike /> &nbsp; Triathlon
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Road, TT & Gravel &nbsp; <IconCar />
+                      Road, TT & Gravel &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -253,16 +253,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Sports Ferrara
+                      <IconBike /> &nbsp; Sports Ferrara
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      4/5 &nbsp; <IconCar />
+                      4/5 &nbsp; <IconBike />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Road & TT
+                      <IconBike /> &nbsp; Road & TT
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Triathlon &nbsp; <IconCar />
+                      Triathlon &nbsp; <IconBike />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">

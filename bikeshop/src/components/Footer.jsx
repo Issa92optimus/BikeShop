@@ -43,10 +43,10 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">Kenya</a>
+                <a href="https://www.nationsonline.org/oneworld/map/kenya_map2.htm">Kenya</a>
               </li>
               <li>
-                <a href="#home">Careers</a>
+                <a href="https://ke.linkedin.com/jobs/software-engineer-jobs?position=1&pageNum=0">Careers</a>
               </li>
               <li>
                 <a href="#home">Mobile</a>
