@@ -13,7 +13,7 @@ function Models() {
   return (
     <> 
       <section className="models-section">
-        <HeroPages name="Vehicle Models" />
+        <HeroPages name="Bike Models" />
         <div className="container">
           <div className="models-div">
             <div className="models-div__box">
