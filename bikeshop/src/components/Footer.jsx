@@ -33,7 +33,7 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/Issa92optimus"
+                  href="https://my-portfolio-omega-nine-17.vercel.app/"
                 >
                   Design by Issa Changawa.
                 </a>
