@@ -49,13 +49,13 @@ function Footer() {
                 <a target="_blank" href="https://ke.linkedin.com/jobs/software-engineer-jobs?position=1&pageNum=0">Careers</a>
               </li>
               <li>
-                <a href="#contact">Mobile</a>
+                <a href="#Contact">Mobile</a>
               </li>
               {/* <li>
                 <a href="#home">Blog</a>
               </li> */}
               <li>
-                <a href="#about">How we work</a>
+                <a href="#About">How we work</a>
               </li>
             </ul>
 
