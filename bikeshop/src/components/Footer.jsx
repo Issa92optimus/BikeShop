@@ -43,19 +43,19 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="https://www.nationsonline.org/oneworld/map/kenya_map2.htm">Kenya</a>
+                <a target="_blank" href="https://www.nationsonline.org/oneworld/map/kenya_map2.htm">Kenya</a>
               </li>
               <li>
-                <a href="https://ke.linkedin.com/jobs/software-engineer-jobs?position=1&pageNum=0">Careers</a>
+                <a target="_blank" href="https://ke.linkedin.com/jobs/software-engineer-jobs?position=1&pageNum=0">Careers</a>
               </li>
               <li>
-                <a href="#home">Mobile</a>
+                <a href="#contact">Mobile</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#home">Blog</a>
-              </li>
+              </li> */}
               <li>
-                <a href="#home">How we work</a>
+                <a href="#about">How we work</a>
               </li>
             </ul>
 
